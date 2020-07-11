@@ -1,0 +1,19 @@
+{
+  "name": "run-express-api",
+  "version": "1.0.2",
+  "description": "A CLI to automatically clone the Express API Starter",
+  "bin": {
+    "run-express-api": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homeranil/run-express-api"
+  },
+  "keywords": [],
+  "author": "Ran Tayar <ran@homeran.co.il> (https://homeran.co.il)",
+  "license": "MIT"
+}
