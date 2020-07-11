@@ -1,4 +1,4 @@
-# run-express-api
+# fast-express-api
 
 A CLI to automatically clone the [Express API Starter](https://github.com/homeranil/express-api-starter).
 
@@ -7,16 +7,16 @@ A CLI to automatically clone the [Express API Starter](https://github.com/homera
 Install the CLI globally OR use npx:
 
 ```sh
-npm install -g run-express-api
+npm install -g fast-express-api
 ```
 
 ## Usage
 
 ```sh
 # with global install
-run-express-api name-of-app
+fast-express-api name-of-app
 # with npx
-npx run-express-api name-of-app
+npx fast-express-api name-of-app
 ```
 
 This will create a directory with the given name, clone the [express API starter](https://github.com/homeranil/express-api-starter) repo into it, and install dependencies.
