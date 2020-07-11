@@ -1,12 +1,11 @@
 #! /usr/bin/env node
-
 const { spawn } = require('child_process');
 
 const name = process.argv[2];
 if (!name || name.match(/[<>:"\/\\|?*\x00-\x1F]/)) {
   return console.log(`
   Invalid directory name.
-  Usage: run-express-api name-of-app
+  Usage: fast-express-api name-of-app
 `);
 }
 

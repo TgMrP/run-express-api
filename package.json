@@ -1,9 +1,9 @@
 {
-  "name": "run-express-api",
-  "version": "1.0.2",
+  "name": "fast-express-api",
+  "version": "1.0.3",
   "description": "A CLI to automatically clone the Express API Starter",
   "bin": {
-    "run-express-api": "index.js"
+    "fast-express-api": "index.js"
   },
   "main": "index.js",
   "scripts": {
