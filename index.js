@@ -9,7 +9,7 @@ if (!name || name.match(/[<>:"\/\\|?*\x00-\x1F]/)) {
 `);
 }
 
-const repoURL = 'https://github.com/homeranil/express-api-starter.git';
+const repoURL = 'https://github.com/TgMrP/express-api-starter.git';
 
 runCommand('git', ['clone', repoURL, name])
   .then(() => {
